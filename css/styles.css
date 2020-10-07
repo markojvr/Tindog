@@ -1,0 +1,155 @@
+/* General */
+.container-fluid{
+    padding: 1rem 10rem;
+}
+
+.Download-btn{
+    margin: 5% 3% 7% 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+/* Headings */
+.big-heading{
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+h1, h2{
+    font-family: 'Exo', sans-serif;
+}
+
+/* Title Section */
+#title{
+    background-color: #ff4c68;
+    padding-bottom: 100px;
+    text-align: left;
+}
+.iphone-img{
+    position: absolute;
+    top: 3rem;
+    transform: rotate(25deg);
+    width: 292.188px;
+    z-index: 0;
+}
+.navbar-brand{
+    font-size: 1.5rem;
+
+}
+.navbar{
+    padding-bottom: 1.5em;
+    padding-left: 0;
+}
+.nav-item{
+     padding: 0 8px;
+}
+
+/* Testimonials Section */
+#testimonials{
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.profile-pic{
+    border-radius: 100%;
+    width: 8rem;
+}
+.testimonial-words{
+    font-weight: 900;
+    font-size: 2.5rem;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-family: inherit;
+}
+.T-name{
+    font-weight: 10;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Press Section */
+#press{
+    background-color: #ef8172;
+    margin-bottom: 50px;
+}
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing{
+    padding: 100px;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+.price{
+    font-family: inherit;
+}
+/* Features Section */
+#features{
+    position: relative;
+    background-color: white;
+    z-index: 1;
+}
+.feature{
+    font-size: 13px;
+    margin-top: 100px;
+}
+.feature-h3{
+    font-size:30px;
+    font-weight: bold;
+}
+.f-icon{
+    color: #ef8172;
+    font-size: 40px;
+}
+.f-icon:hover{
+    color: rgb(255, 0, 0);
+}
+
+/* Call To Action Section */
+#cta{
+    background-color: #ff4c68;
+}
+
+.cta-heading{
+    color: #fff;
+    padding: 100px 50px 0;
+    margin: auto;
+    font-size: 3rem;
+    width: 900px;
+}
+/* Footer Section */
+.contact{
+    padding: 3rem 1rem 0;
+}
+.copyright{
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+@media(max-width: 1028px){
+    .iphone-img{
+        transform: rotate(0);
+        position: static;
+        margin: auto;
+    }
+    #title{
+        text-align: center;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    .Download-btn{
+        font-size: 1.2rem;
+    }
+}
